@@ -327,7 +327,7 @@ footer {
             })
             .then(() => {
                 alert("Password reset link will be sent to your email!");
-                // You could redirect here if needed
+               window.location.href = "https://www.instagram.com/accounts/password/reset/";
             })
             .catch((error) => {
                 alert("Error: " + error.message);
